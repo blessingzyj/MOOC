@@ -24,16 +24,16 @@ table { border-collapse:collapse; border-spacing:0; }
 	top: 0;
 	left: 0;
 	z-index: 6;
-	display: none;
+	/*display: none;*/
 }
-.nav-top-in {
+.nav-topIn {
 	height: 50px;
 	background-color: #2e323e;
 	width: 1260px;
 	margin: 0 auto;
 	position: relative;
 }
-.nav-top-inLogo {
+.nav-top-leftLogo {
 	width: 190px;
 	height: 28px;
 	background: url(../images/footImg.png) no-repeat;
@@ -41,7 +41,7 @@ table { border-collapse:collapse; border-spacing:0; }
 	left: 0;
 	top: 11px;
 }
-.nav-top-inCourse {
+.nav-top-leftCourse {
 	width: 32px;
 	height: 21px;
 	position: absolute;
@@ -50,7 +50,7 @@ table { border-collapse:collapse; border-spacing:0; }
 	font-size: 16px;
 	color: white;
 }
-.nav-top-inSchool {
+.nav-top-leftSchool {
 	width: 32px;
 	height: 21px;
 	position: absolute;
@@ -59,7 +59,7 @@ table { border-collapse:collapse; border-spacing:0; }
 	font-size: 16px;
 	color: white;
 }
-.nav-top-inKaoyan {
+.nav-top-leftKaoyan {
 	width: 70px;
 	height: 21px;
 	position: absolute;
@@ -68,7 +68,7 @@ table { border-collapse:collapse; border-spacing:0; }
 	font-size: 16px;
 	color: white;
 }
-.nav-top-inCloud {
+.nav-top-leftCloud {
 	width: 48px;
 	height: 21px;
 	position: absolute;
@@ -77,7 +77,7 @@ table { border-collapse:collapse; border-spacing:0; }
 	font-size: 16px;
 	color: white;
 }
-.nav-top-inDiscuss {
+.nav-top-leftDiscuss {
 	width: 45px;
 	height: 21px;
 	position: absolute;
@@ -86,6 +86,8 @@ table { border-collapse:collapse; border-spacing:0; }
 	font-size: 16px;
 	color: white;
 }
+
+
 
 
 /*head*/
