@@ -24,7 +24,7 @@ table { border-collapse:collapse; border-spacing:0; }
 	top: 0;
 	left: 0;
 	z-index: 6;
-	/*display: none;*/
+	display: none;
 }
 .nav-topIn {
 	height: 50px;
@@ -346,8 +346,20 @@ table { border-collapse:collapse; border-spacing:0; }
 .head-container ul li a {
 	color: black;
 }
+.head-container ul li a:link {
+	color: black;
+	text-decoration: none;
+}
+.head-container ul li a:visited {
+	color: black;
+	text-decoration: none;
+}
 .head-container ul li a:hover {
 	color: #55b929;
+	text-decoration: none;
+}
+.head-container ul li a:active {
+	color: black;
 	text-decoration: none;
 }
 .head-container .ky {
@@ -375,11 +387,20 @@ table { border-collapse:collapse; border-spacing:0; }
 .head-link .wyy {
 	margin-right: 14px;
 }
-.head-link div a {
-	color: #666666;
+.hl-more>a:link, .wyy a:link, .jk a:link {
+	color: #666;
+	text-decoration: none;
 }
-.head-link div a:hover {
+.hl-more>a:visited, .wyy a:visited, .jk a:visited {
+	color: #666;
+	text-decoration: none;
+}
+.hl-more>a:hover, .wyy a:hover, .jk a:hover {
 	color: #55b929;
+	text-decoration: none;
+}
+.hl-more>a:active, .wyy a:active, .jk a:active {
+	color: #666;
 	text-decoration: none;
 }
 .head-link .hl-more-hidden {
@@ -605,10 +626,25 @@ table { border-collapse:collapse; border-spacing:0; }
 	line-height: 36px;
 	color: white;
 }
+.banner-login a:link{
+	text-decoration: none;
+	color: white;
+	background-color: #55b929;
+}
+.banner-login a:visited{
+	text-decoration: none;
+	color: white;
+	background-color: #55b929;
+}
 .banner-login a:hover{
 	text-decoration: none;
 	color: white;
 	background-color: rgba(139,183,33,0.8);
+}
+.banner-login a:active{
+	text-decoration: none;
+	color: white;
+	background-color: #55b929;
 }
 .banner-login .word {
 	width: 144px;
