@@ -1,4 +1,22 @@
 //nav
+var navTopRInputText = document.getElementById('navTopR-input-text');
+var navTopRInputLabel = document.getElementById('navTopR-input-label');
+
+navTopRInputText.onfocus = function(){
+	navTopRInputLabel.style.visibility = "hidden";
+	navTopRInputText.style.outline = 'none';
+}
+navTopRInputText.onblur = function(){
+	if (navTopRInputText.value == "") {
+		navTopRInputLabel.style.visibility = "visible";
+	}else{
+		navTopRInputLabel.style.visibility = "hidden";
+	}
+	
+}
+
+
+
 var head = document.getElementById('head');
 var navTop = document.getElementById('nav-top');
 window.onscroll=function(){
@@ -11,9 +29,11 @@ window.onscroll=function(){
 
 
 
+
 // search
 var hsInputText = document.getElementById('hs-input-text');
 var hsInputLabel = document.getElementById('hs-input-label');
+
 hsInputText.onfocus = function(){
 	hsInputLabel.style.visibility = "hidden";
 	hsInputText.style.outline = 'none';

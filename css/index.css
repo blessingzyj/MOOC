@@ -86,6 +86,73 @@ table { border-collapse:collapse; border-spacing:0; }
 	font-size: 16px;
 	color: white;
 }
+.navTopR-login {
+	width: 76px;
+	height: 16px;
+	position: absolute;
+	right: 0px;
+	top: 17px;
+	margin-left: 56px;
+	color: white; 
+}
+.navTopR-input{
+	width: 230px;
+	height: 26px;
+	position: absolute;
+	margin-right: 30px;
+	right: 132px;
+	top: 12px;
+}
+#navTopR-input-text {
+	width: 185px;
+	height: 16px;
+	box-sizing: content-box;
+	border: none;
+	padding: 5px;
+	font-size: 12px;
+	font-family: Arial;
+	color: #333;
+	font-weight: 400;
+}
+.navTopR-input-lable {
+	font-size: 12px;
+	font-family: Arial;
+	color: #999;
+	font-weight: 400;
+	position: absolute;
+	top: 6px;
+	left: 10px;
+}
+.navTopR-inputSearch {
+	width: 35px;
+	height: 26px;
+	background-color: #55b929;
+	float: right;
+	text-align: center;
+	cursor: pointer;
+}
+.navTopR-inputSearch .glyphicon {
+	font-size: 20px;
+	color: white;
+	margin-top: 3px;
+}
+.navTopR-sourse {
+	width: 42px;
+	height: 19px;
+	position: absolute;
+	top: 15px;
+	margin-right: 30px;
+	right: 392px;
+	color: white;
+}
+.navTopR-app {
+	width: 13px;
+	height: 21px;
+	position: absolute;
+	top: 14px;
+	margin-right: 10px;
+	right: 464px;
+}
 
 
 
