@@ -1,3 +1,16 @@
+//nav
+var head = document.getElementById('head');
+var navTop = document.getElementById('nav-top');
+window.onscroll=function(){
+	if (window.pageYOffset>head.offsetHeight) {
+		navTop.style.display='block';
+	}else{
+		navTop.style.display='none';
+	}
+}
+
+
+
 // search
 var hsInputText = document.getElementById('hs-input-text');
 var hsInputLabel = document.getElementById('hs-input-label');

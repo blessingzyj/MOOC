@@ -15,6 +15,79 @@ fieldset, img { border:0; }
 button, input, select, textarea { font-size:100%; }  
 table { border-collapse:collapse; border-spacing:0; }
 
+/*nav*/
+.nav-top {
+	height: 50px;
+	width: 100%;
+	background-color: #2e323e;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 6;
+	display: none;
+}
+.nav-top-in {
+	height: 50px;
+	background-color: #2e323e;
+	width: 1260px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav-top-inLogo {
+	width: 190px;
+	height: 28px;
+	background: url(../images/footImg.png) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 11px;
+}
+.nav-top-inCourse {
+	width: 32px;
+	height: 21px;
+	position: absolute;
+	left: 220px;
+	top: 14px;
+	font-size: 16px;
+	color: white;
+}
+.nav-top-inSchool {
+	width: 32px;
+	height: 21px;
+	position: absolute;
+	left: 282px;
+	top: 14px;
+	font-size: 16px;
+	color: white;
+}
+.nav-top-inKaoyan {
+	width: 70px;
+	height: 21px;
+	position: absolute;
+	left: 344px;
+	top: 14px;
+	font-size: 16px;
+	color: white;
+}
+.nav-top-inCloud {
+	width: 48px;
+	height: 21px;
+	position: absolute;
+	left: 444px;
+	top: 14px;
+	font-size: 16px;
+	color: white;
+}
+.nav-top-inDiscuss {
+	width: 45px;
+	height: 21px;
+	position: absolute;
+	left: 522px;
+	top: 14px;
+	font-size: 16px;
+	color: white;
+}
+
+
 /*head*/
 .head {
 	height: 106px;
