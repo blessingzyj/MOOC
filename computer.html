@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="images/picture.png" type="image/x-icon">
+	<title>计算机_中国大学MOOC(慕课)</title>
+	<link rel="stylesheet" href="css/computer.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="nav-top" id="nav-top">
+		<div class="nav-topIn">
+			<div class="nav-top-leftLogo"></div>
+			<div class="nav-top-leftCourse">课程</div>
+			<div class="nav-top-leftSchool">名校</div>
+			<div class="nav-top-leftKaoyan">2019考研</div>
+			<div class="nav-top-leftCloud">学校云</div>
+			<div class="nav-top-leftDiscuss">学&nbsp·&nbsp问</div>
+			
+			<div class="navTopR-app"><img src="images/app-nav.png" alt=""></div>
+			<div class="navTopR-sourse">客户端</div>
+
+			<div class="navTopR-input">
+				<input type="text" id="navTopR-input-text">
+				<label for="navTopR-input-text" class="navTopR-input-lable" id="navTopR-input-label">搜索感兴趣的课程</label>
+				<div class="navTopR-inputSearch">
+					<span class="glyphicon glyphicon-search">
+					</span>				
+				</div>
+			</div>
+			<div class="navTopR-login" id="navTopR-login">
+				登录<span class="huo">&nbsp&nbsp|&nbsp&nbsp</span>注册
+			</div>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="main-in">
+			<div class="m-bread">
+				<a href="index.html">首页</a>
+				<span>></span>
+				<a href="#">全部课程</a>
+				<span>></span>
+				<span>计算机</span>
+			</div>
+			<div class="m-nav">
+				<ul id="mainNavUl">
+					<li><a href="#"><span class="glyphicon glyphicon-th-large"></span>全部</a></li>
+					<li><a href="#" style="background-color: #55B929; color: white;"><span class="glyphicon glyphicon-blackboard"></span>计算机</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-folder-open"></span>经济管理</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-heart-empty"></span>心理学</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-book"></span>外语</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>文学历史</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-picture"></span>艺术设计</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-education"></span>工学</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span>理学</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-paperclip"></span>生命科学</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-comment"></span>哲学</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-globe"></span>法学</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-edit"></span>教育学</a></li>
+					<li><a href="#" style="color: #55B929;" id="lastLiA"><span class="glyphicon glyphicon-list-alt"></span>其他&nbsp&nbsp<span class="glyphicon glyphicon-menu-down"></span></a></li>
+				</ul>
+				<div class="ul-other" id="lastLiANews" style="display: none;">
+					<ul>
+						<li><a href="#">大学先修课<span class="glyphicon glyphicon-menu-right"></span></a></li>
+						<li><a href="#">职业教育课程<span class="glyphicon glyphicon-menu-right"></span></a></li>
+					</ul>
+					<div class="ul-other-arrow1"></div>
+					<div class="ul-other-arrow2"></div>
+				</div>
+				<div class="m-nav2" id="mnav2">
+					<li><a href="#" style="color: #55B929;">全部</a></li>
+					<li><a href="#">计算机基础</a></li>
+					<li><a href="#">编程语言</a></li>
+					<li><a href="#">数据库与数据结构</a></li>
+					<li><a href="#">计算机应用</a></li>
+					<li><a href="#">软件工程</a></li>
+					<li><a href="#">计算机组成</a></li>
+				</div>
+			</div>
+			<div class="m-result-view">
+				<div class="m-result-bar" id="resultBar">
+					<ul class="m-result-barL">
+						<li style="color: #55B929">全部(166)</li>
+						<li>正在进行</li>
+						<li>即将开始</li>
+						<li>已结束</li>
+					</ul>
+					<ul class="m-result-barR">
+						<li>综合排序</li>
+						<li>热门</li>
+						<li>最新</li>
+					</ul>
+				</div>
+				<div id="carBox">
+					<div class="m-result-cardbox">
+						<div class="m-courseList">
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg2.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Python程序设计</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg2.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg3.jpg" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg4.jpg" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg4.jpg" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg6.jpg" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg7.jpg" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg8.jpg" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg9.jpg" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Office高级应用</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="m-result-pages">
+							<ul id="mresultPages">
+								<li><a href="#">上一页</a></li>
+								<li><a href="#" style="background-color: #49AF4F; color: white;">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#">6</a></li>
+								<li><a href="#">...</a></li>
+								<li><a href="#">9</a></li>
+								<li><a href="#">下一页</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="m-result-cardbox" style="display: none">
+						<div class="m-courseList">
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">正在进行</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg2.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Python程序设计</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<div class="m-result-cardbox" style="display: none">
+						<div class="m-courseList">
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+								<div class="m-clcTitle"><a href="#">即将开始</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg2.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Python程序设计</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<div class="m-result-cardbox" style="display: none">
+						<div class="m-courseList">
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">已结束</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg2.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Python程序设计</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<div class="m-result-cardbox" style="display: none">
+						<div class="m-courseList">
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">综合排序</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg2.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Python程序设计</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<div class="m-result-cardbox" style="display: none">
+						<div class="m-courseList">
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">热门</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg2.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Python程序设计</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<div class="m-result-cardbox" style="display: none">
+						<div class="m-courseList">
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg1.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">最新</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+							<div class="m-clist">
+								<div class="m-clistImg"><img src="images/clistImg2.png" alt="" style="width: 265px;height: 150px;"></div>
+								<div class="m-clistContent">
+									<div class="m-clcTitle"><a href="#">Python程序设计</a></div>
+									<div class="m-clcAuthor"><a href="#" class="chengdu">成都信息工程大学</a> <span><a href="#">张伟利</a> 、 <a href="#">何钰娟</a> 、 <a href="#">朱烨</a> 、 <a href="#">曾琼</a> 、 <a href="#">赵吉武</a> 、 <a href="#">谯雪梅</a> 、 <a href="#">石远志</a> 、 <a href="#">吴四九</a> 、 <a href="#">羊裔高</a></span></div>
+									<div class="m-clcContent"><a href="#">本课程以全国计算机等级考试“二级MS Office高级应用”考试大纲为基础，结合日常办公应用需求而有所扩展，讲解最常用的Word、Excel、PowerPoint三个应用组件，让学习者较系统地掌握Office的科学用法，在实…</a></div>
+									<div class="m-clcJoin">
+										<span class="glyphicon glyphicon-user"></span><span>62409人参加</span>
+										<span class="glyphicon glyphicon-time"></span>
+										<span>进行至第三周</span>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+
+				</div>
+
+				<div class="side-bar" id="sideBar">
+					<div class="side-bar-title">
+						本周课程热度排行
+					</div>
+					<div class="side-bar-one">
+						<div class="side-bar-oneImg">
+							<a href="#"><img src="images/clistImg2.png" alt="" style="width: 130px; height: 80px;"></a>
+							<div class="sbiArrow"></div>
+							<div class="abiNumber">1</div>
+						</div>
+						<div class="side-bar-oneCont">
+							<div class="oneTitle"><a href="#">Python语言程序设计</a></div>
+							<div class="oneJoin">85737人参加</div>
+						</div>					
+					</div>
+					<ul class="side-bar-list">
+						<li><a href="#">2.&nbsp大学日语</a></li>
+						<li><a href="#">3.&nbspOffice高级应用</a></li>
+						<li><a href="#">4.&nbsp爱情心理学</a></li>
+						<li><a href="#">5.&nbsp程序设计入门——C语言</a></li>
+						<li><a href="#">6.&nbsp家庭理财</a></li>
+						<li><a href="#">7.&nbsp思想道德修养与法律基础</a></li>
+						<li><a href="#">8.&nbsp面向对象程序设计——java语言</a></li>
+						<li><a href="#">9.&nbsp婚恋-职场-人格</a></li>
+						<li><a href="#">10.&nbsp微观经济学</a></li>
+					</ul>
+					<div class="side-barImg1"><img src="images/news1.jpg" alt="" style="width: 265px; height: 90px;"></div>
+					<div class="side-barImg2"><img src="images/news2.jpg" alt="" style="width: 265px; height: 90px;"></div>
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+			<div class="foot-inner">
+				<div class="foot-inner1">
+					<img src="images/footImg.png" alt="">
+					<p>由高教社联手网易推出，让每一个有提升愿望的用户能够学到中国知名高校的课程，并获得认证。</p>
+				</div>
+				<div class="foot-inner2">
+					<h4>关于我们</h4>
+					<div class="foot-inner2b">
+						<a href="#" class="foot-inner2a">关于我们</a>
+						<a href="#" class="foot-inner2a">联系我们</a>
+						<a href="#" class="foot-inner2a">意见反馈</a>
+						<a href="#" class="foot-inner2a">学校云</a>
+						<a href="#" class="foot-inner2a">常见问题</a>
+						<a href="#" class="foot-inner2a">法律条款</a>
+					</div>
+				</div>
+				<div class="foot-inner3">
+					<h4>关注我们</h4>
+					<div class="foot-inner3logo">
+						<a href="#"><span class="fa fa-weixin"></span></a>
+						&nbsp&nbsp
+						<a href="#"><span class="fa fa-weibo"></span></a>
+					</div>
+				</div>
+				<div class="foot-inner4">
+					<h4>友情链接</h4>
+					<div class="foot-inner2b">
+						<a href="#" class="foot-inner2a">网易卡塔</a>
+						<a href="#" class="foot-inner2a">网易云课堂</a>
+						<a href="#" class="foot-inner2a">网易100分</a>
+					</div>
+				</div>
+			</div>
+			<div class="foot-b">
+				<span>粤B2-20090191-26 | 京ICP备12020869号-2 | <a href="#">京公网安备44010602000207</a></span><br>
+				<span>©2014-2018 icourse163.org</span>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="js/computer.js"></script>
+</body>
+</html>

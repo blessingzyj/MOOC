@@ -95,6 +95,10 @@ table { border-collapse:collapse; border-spacing:0; }
 	margin-left: 56px;
 	color: white; 
 }
+.huo {
+	position: relative;
+	top: -1px;
+}
 .navTopR-input{
 	width: 230px;
 	height: 26px;
